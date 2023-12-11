@@ -13,7 +13,10 @@ image_source = "https://drive.google.com/uc?id=1OPqIj-0sisgdtOVAJmE2aolqSe17nym1
 st.image(image_source, use_column_width=False, width=600)
 
 # 이미지 열기
-image = Image.open("./images/draw.png")
+try:
+    image = Image.open("./images/draw.png")
+except Exception as e:
+    st.error(f"이미지를 불러오는 데 실패했습니다: {e}")
 st.header("아파트 평면도 그리기:lower_left_ballpoint_pen:")
 canvas_result = st_canvas(
     fill_color="rgba(255, 165, 0, 0.3)",  # 채우기 색상
