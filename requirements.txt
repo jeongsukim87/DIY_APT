@@ -3,3 +3,5 @@ numpy
 matplotlib
 folium
 streamlit_folium
+streamlit_drawable_canvas
+PIL

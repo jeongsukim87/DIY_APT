@@ -41,7 +41,7 @@ def divide_lists(list1, list2):
     return result
 
 st.set_page_config(
-    page_title="나만의 아파트 만들기 - 서울시 연도별 주택 종류",
+    page_title="나만의 apt 만들기 - 서울시 연도별 주택 종류",
     page_icon=":office:"
 )
 

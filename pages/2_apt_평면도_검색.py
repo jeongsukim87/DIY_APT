@@ -23,7 +23,7 @@ def fontRegistered():
 
 
 st.set_page_config(
-    page_title="나만의 아파트 만들기 - 서울시 아파트 평면도 탐색",
+    page_title="나만의 apt 만들기 - 서울시 아파트 평면도 탐색",
     page_icon=":office:"
 )
 st.title("서울시 아파트 평면도 탐색📡")
@@ -157,3 +157,7 @@ if button:
                         st.write(f"{apt_info2[i + j]}")
                         st.write(f"{apt_info3[i + j]}")
             st.divider()
+
+with st.expander("📈"):
+    st.text("위 그래프를 통해 알게된 사실을 작성해보세요.")
+    

@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="나만의 아파트 만들기 - 문제 상황 이해하기",
+    page_title="나만의 apt 만들기 - 문제 상황 이해하기",
     page_icon=":office:"
 )
 st.title("나만의 아파트 만들기!🏢")
