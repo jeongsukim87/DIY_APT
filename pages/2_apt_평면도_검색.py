@@ -157,7 +157,4 @@ if button:
                         st.write(f"{apt_info2[i + j]}")
                         st.write(f"{apt_info3[i + j]}")
             st.divider()
-
-with st.expander("📈"):
-    st.text("위 그래프를 통해 알게된 사실을 작성해보세요.")
     
